@@ -1,0 +1,7 @@
+{
+  "name": "Copy of NearestPG - Student Accommodation Platform",
+  "description": "A comprehensive MERN-inspired platform connecting PG owners with students, featuring AI-powered listing optimization and real-time location mapping.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
