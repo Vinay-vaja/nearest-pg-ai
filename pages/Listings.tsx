@@ -10,7 +10,7 @@ const MOCK_LISTINGS: PGListing[] = [
     title: 'Modern Student Living - North Campus',
     description: 'Beautifully furnished PG near University metro station. Ideal for students seeking comfort.',
     price: 12000,
-    location: { address: 'Mall Road, Civil Lines', city: 'Delhi', lat: 28.6942, lng: 77.2104 },
+    location: { address: 'Mall Road, Civil Lines', city: 'Ahmedabad', lat: 28.6942, lng: 77.2104 },
     amenities: ['WiFi', 'AC', 'Laundry', 'Meals Included'],
     genderPreference: 'Boys',
     images: ['https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=400&h=300&fit=crop'],
@@ -19,7 +19,7 @@ const MOCK_LISTINGS: PGListing[] = [
   {
     id: '2',
     ownerId: 'owner2',
-    title: 'Premium Girls PG in HSR Layout',
+    title: 'Premium Unisex PG in HSR Layout',
     description: 'Safe community with high speed internet and premium furniture.',
     price: 15000,
     location: { address: 'HSR Layout Sector 2', city: 'Bangalore', lat: 12.9141, lng: 77.6411 },
@@ -31,7 +31,7 @@ const MOCK_LISTINGS: PGListing[] = [
   {
     id: '3',
     ownerId: 'owner3',
-    title: 'Executive Stay near Viman Nagar',
+    title: 'Executive Stay near Nehru Nagar',
     description: 'Walking distance from IT hubs and top colleges. Best for young pros.',
     price: 8500,
     location: { address: 'Viman Nagar', city: 'Pune', lat: 18.5679, lng: 73.9143 },
