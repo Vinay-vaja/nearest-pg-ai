@@ -103,8 +103,8 @@ const Layout: React.FC<LayoutProps> = ({ children, user, onLogout, theme, toggle
           <div className="mt-16 pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium border-slate-200 dark:border-slate-800 text-slate-400">
             <p>© {new Date().getFullYear()} NearestPG Technologies Pvt Ltd.</p>
             <div className="flex gap-6">
-              <span className="hover:text-orange-500 cursor-pointer">Instagram</span>
-              <span className="hover:text-orange-500 cursor-pointer">Twitter</span>
+              <span className="hover:text-orange-500 cursor-pointer">IG</span>
+              <span className="hover:text-orange-500 cursor-pointer">X</span>
               <span className="hover:text-orange-500 cursor-pointer">LinkedIn</span>
             </div>
           </div>
